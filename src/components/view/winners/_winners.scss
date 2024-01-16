@@ -1,0 +1,29 @@
+.winners-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h2 {
+    text-align: center;
+  }
+}
+table {
+  padding-top: 20px;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+
+}
+th, td {
+  //border:1px solid #fff;
+  padding: 10px;
+  text-align: center;
+}
+tr {
+  border-bottom: 1px solid #fff;
+}
+.wins,
+ .time {
+  &:hover {
+    cursor: pointer;
+  }
+}

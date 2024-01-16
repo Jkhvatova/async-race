@@ -1,0 +1,25 @@
+.car_header {
+  display: flex;
+}
+.car_track {
+  display: flex;
+}
+hr {
+  border-bottom: none;
+  border-top: 3px dashed #fff;
+}
+.car_A-btn,
+.car_B-btn {
+  border-radius: 6px;
+  height: 40px;
+}
+.car_name {
+  padding-left: 5px;
+  text-transform: capitalize;
+}
+.car_flag {
+  margin-left: 70vw;
+  @media screen and (max-width: 700px) {
+    margin-left: 50vw;
+  }
+}
