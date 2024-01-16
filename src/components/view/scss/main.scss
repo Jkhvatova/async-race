@@ -1,0 +1,47 @@
+@import "../car/car";
+@import "../garage/garage";
+@import "../winners/winners";
+
+html {
+  min-height: 100%;
+}
+body {
+  background-color: #2b4162;
+  background: linear-gradient(315deg, #2b4162 0%, #12100e 74%) fixed;
+  height: 100%;
+  color: #fff;
+  font-size: 16px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.hide {
+  display: none;
+}
+// buttons
+.btn {
+  border-color: #76aaf5;
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 0 #76aaf5 inset, 0 0 0 0 #76aaf5;
+  transition: all 150ms ease-in-out;
+  text-transform: uppercase;
+  font-size: 12px;
+  &:hover {
+    box-shadow: 0 0 10px 0 #76aaf5 inset, 0 0 10px 4px #76aaf5;
+  }
+  &-disabled {
+    cursor:auto;
+    color: #797878;
+    &:hover {
+      box-shadow: 0 0 0 0 #76aaf5 inset, 0 0 0 0 #76aaf5;
+    }
+  }
+}

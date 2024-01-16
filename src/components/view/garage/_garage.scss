@@ -1,0 +1,53 @@
+.garage-title {
+  color: #fff;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.buttons-row {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+form {
+  display: flex;
+  align-items:center;
+  margin: 5px 0;
+}
+#create-car-name,
+#update-car-name {
+  height: 21px;
+}
+.btn.create-btn,
+.btn.update-btn {
+  padding: 4px 10px;
+}
+.overlay {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.modal {
+  text-align: center;
+  font-size: 30px;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-text {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 30px rgb(40, 248, 248),
+    0 0 60px rgb(126, 252, 252),;
+}
